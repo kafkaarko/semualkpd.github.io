@@ -16,19 +16,19 @@ console.log(gajiBersih)
 
 
 
-let jam;
-let menit;
-let detik = prompt("detik");
+let jam = 1;
+let menit = 30;
+let detik = 40;
 let hasil;
-let cek;
+// let cek;
 
 // jam *= 3600;
 // menit *= 60;
-// hasil = (jam + menit + detik);
-// console.log(hasil);
-cek = detik % 3600;
-jam = detik / 3600;
-menit = cek /60;
-detik = cek %  60;
+hasil = (jam * 3600 + menit * 60 + detik);
+console.log(hasil);
+// cek = detik % 3600;
+// jam = detik / 3600;
+// menit = cek /60;
+// detik = cek %  60;
 
-document.write(Math.floor(jam) + ' Jam ' + Math.floor(menit) + ' Menit ' + Math.floor(detik) + ' Detik ') 
+// document.write(Math.floor(jam) + ' Jam ' + Math.floor(menit) + ' Menit ' + Math.floor(detik) + ' Detik ') 
